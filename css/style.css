@@ -1,0 +1,80 @@
+/* PERFECT-O CSS DOCUMENT */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Social - Icons Header */
+.social-icon-header{
+    background-color: #1a222f;
+    color: #7c8083;
+    /* padding: 0;
+    min-height: 40px; */
+}
+.social-icon-header-item, .social-icon-right-item {
+    margin-top: 10px;
+}
+.social-icon-header-item {    
+    line-height: 18px;
+    font-size: 13px;
+}
+.header-icon-item p{
+    margin-left: 5px;
+}
+.header-icon-item  a {
+    color: #7c8083;
+}
+.social-icon-right-item a {
+    color: #7c8083;
+    margin: 0 5px;
+}
+.social-icon-right-item a:hover{
+    color: #3fa3d5;
+}
+.social-icon-right-item{
+    display: inline-block;
+}
+/* EndOf- Header- Social Icon */
+
+/* Nav */
+.logo-wrap{
+    min-height: 98px;
+    align-items: center;
+    display: flex;
+}
+.perfect-item{
+    line-height: 22px;
+    font-size: 18px;
+}
+.perfect-item a{
+    color: #000;
+    text-transform: uppercase;
+}
+.perfect-item a:hover{
+    color: rgb(25, 117, 107);
+}
+/* EndOF- Header- Social Icon */
+
+/* Banner Section */
+.hero-image{
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-image-item{
+    width: 78%;
+    margin: auto;
+    color: #fff;
+    padding-top: 70px;
+}
+.hero-item .hero-content{
+    font-size: 22px;
+}
+.hero-item a{
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    font-weight: bold;
+}
